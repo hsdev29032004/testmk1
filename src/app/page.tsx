@@ -4,7 +4,7 @@ import ListProduct from "@/component/ListProduct";
 
 export default async function Home() {
   try {
-    const response = await fetch('https://dummyjson.com/producdts');
+    const response = await fetch('https://dummyjson.com/products');
   if (!response.ok) {
     throw new Error("Lỗi khi tải dữ liệu");
   }
